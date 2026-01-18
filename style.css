@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+section {
+    width: 100%;
+    margin: 10px auto;
+    background-color: #eee;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* =========================
+   TABLET VIEW (>=772px)
+========================= */
+@media screen and (min-width: 772px) {
+    section {
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
+        margin: 2%;
+    }
+
+    img {
+        max-height: 30vh;
+    }
+}
+
+/* =========================
+   DESKTOP VIEW (>=998px)
+========================= */
+@media screen and (min-width: 998px) {
+    section {
+        width: 30%;
+    }
+}
